@@ -15,13 +15,13 @@
 	<body>
 
 		<!-- The body of the document contains a number of sections -->
-		<section name="section 1">
+		<section name="CV" id="CV">
 
 			<!-- Within sections, any XHTML can be used -->
-			<p>Hi!</p>
+
 
 			<!-- in addition to XHTML, any number of subsections can be within a section -->
-			<subsection name="subsection 1">
+			<subsection name="subsectiond1" id="subsectiond1">
 				<p>Subsection!</p>
 			</subsection>
 
