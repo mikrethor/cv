@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="${project.name}">
+
+	<skin>
+		<groupId>org.apache.maven.skins</groupId>
+		<artifactId>maven-fluido-skin</artifactId>
+		<version>1.4</version>
+	</skin>
+
+	<!-- <custom> <fluidoSkin> <cssLinks> <cssLink>http://icpvm.desjardins.uni:8088/docfwd/css/site-desjardins.css 
+		</cssLink> </cssLinks> <topBarEnabled>true</topBarEnabled> <topBarIcon> <name>Documentation 
+		Framework N3 Desjardins</name> <alt>Documentation Framework N3 Desjardins</alt> 
+		<src>http://icpvm.desjardins.uni:8088/docfwd/ressources/logo_desjardins.gif 
+		</src> <href>${urlDocumentation}</href> </topBarIcon> </fluidoSkin> </custom> -->
+	<body>
+		<links>
+			<item name="Maven" href="http://maven.apache.org/" />
+		</links>
+
+		<menu name="Curricula Vitae">
+			<item name="CV in APT format" href="cv/cv_apt.html" />
+			<item name="CV in XDOC format" href="cv/cv_xdoc.html" />
+			<item name="CV in FML format" href="cv/cv_fml.html" />
+		</menu>
+		<menu ref="reports" />
+
+	</body>
+</project>
