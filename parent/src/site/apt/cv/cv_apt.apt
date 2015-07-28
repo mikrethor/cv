@@ -5,10 +5,250 @@
             ------
             22/07/2015
 
-CV
+Développeur Java/J2EE
 
-	test
+* Autorisé à travailler au Canada (PVT, JP) 
+
+	Mon objectif est de mettre à profit mes 8 années d'expérience afin d'améliorer la productivité et le fonctionnement des entreprises
+
+* Compétences
+
+** Techniques
+
+	* Langages : Java, JEE, SQL, PL/SQL, Windev
 	
-* ksdjhdklj
+	* Framework : Spring, Struts, Hibernate
+	
+	* OS: Windows, Linux, Unix, Android
+	
+	* Bases de données: MySQL, Oracle, PostgreSQL, DB2
+	
+	* Solutions de tests : Quality Center, Test Director, RTC, RQM
+	
+	* Gestion de configuration : CVS, SVN, GDS, Git
+	
+	* Outils : Jenkins, Sonar, Artifactory, Nexus
+	
+	* Modélisation : UML
 
-** klsdjsdlk
+** Langues
+
+	* Français : (langue maternelle)
+	
+	* Anglais
+	
+* Principales Réalisations
+
+	* Mise en place d'une "task force" de 7 personnes pour la réussite des développements d'un module d'administration d'une application de transformation de message de la direction générale de l'armement pour le compte de Sopra-Steria.
+	
+	* Transfert avec réussite des activités de maintenance des applications de la Chaîne Civile du Ministère de la Justice pour le compte de Sopra-Steria de Paris à Nantes.
+	
+	* Industrialisation des développements des applications RH du secteur public de Sopra-Steria (Migration Maven 1 à 2, Jenkins, Artifactory).
+	
+	* Organisation avec succès de la campagne de recrutement de 60 stagiaires 2010-2011 du secteur public de Sopra-Steria répartis entre Paris et Nantes
+
+* Éducation
+
+*------*----------+--------------------------------------------------------------------------------------:
+| Juin | Orléans  |Master 2 Sciences et Technologie de l’Information et de la Communication mention IRAD |
+| 2007 |          |(Informatique : Répartition et Aide à la Décision)     								 |
+*------*----------+--------------------------------------------------------------------------------------:
+| Juin | Orléans  | Licence3 STIC  																		 |
+| 2005 |          | (Sciences des Technologies de l’Information et de la Communication)      			 |
+*------*----------+--------------------------------------------------------------------------------------:
+| Juin | Chartres | Baccalauréat scientifique 															 |
+| 2001 |          |                     				      											 |
+*------*----------+--------------------------------------------------------------------------------------:
+
+* Projets Personnels
+
+** Développement d’une application Android pour faire travailler la mémoire
+ 	
+ 	Langages : Java 1.6
+ 	Framework : Junit
+ 	OS: Android
+ 	Gestion de configuration : Git
+ 	Outils : Ant, Eclipse+AOSP
+ 	
+**	Développement d’une application de récupération des données de jeu des joueurs de poker en ligne avec calculs de statistiques
+
+ 	Langages : Java 1.7
+ 	Framework : MyBatis, SLF4J, Eclipse RCP, Junit
+ 	OS: Windows, Linux, Unix
+ 	Bases de données: PostgreSQL
+ 	Gestion de configuration : Git
+ 	Modélisation : UML
+ 	Outils : Maven 3, Jenkins, Sonar, Eclipse
+ 	
+* Expériences
+
+** Juin 2015 (Montréal) Desjardins – GROCI
+
+*** Développeur sénior
+
+	TODO
+
+** Août 2014 à juin 2015 (Montréal) Desjardins – GROCI
+
+*** Développeur sénior
+
+	* Développement en Java/J2ee sur les modules Contrôles Internes et Risques Opérationnels de l’application mouvement GROCI.
+	
+		*Eclipse, Java 1.6, Spring, Hibernate, Weblogic, Ant, Jenkins, Sonar, CVS, Junit, DB2
+	* Mise en place de Sonar
+	
+*** Contexte
+
+	6 personnes dans la Direction Solutions, Gestion des risques Technologies et Services partagés
+
+** Juin 2013 à mai 2014 (Rennes - Paris) Direction Générale de l’Armement – Programme SIA
+
+*** Chef de projets
+ 	
+	* Suivi du budget et du planning
+
+	* Encadrement de l’équipe de développement (11 personnes)
+ 	
+	* Pilotage des projets en Java/J2ee, DotNet et intégration de progiciel
+
+	* Responsable des échanges avec le client et avec la hiérarchie
+ 	
+*** Développeur sénior
+ 	
+	* Développement en Java/J2ee sur un projet de build de 2000 jours
+		
+		* Eclipse RCP, Java 1.6, Fuse ESB, Jenkins, Maven, Sonar, PostgreSQL, SVN, TestNG, RQM, RTC
+ 
+*** Contexte
+
+	11 personnes dans un programme de 150 personnes (130 millions d’euros sur 8 ans) dans les locaux de Sopra Rennes et Paris)
+
+** Octobre 2011 à mai 2013 (Nantes - Paris) Ministère de la Justice 
+
+***	Chef de projets
+ 	
+	* Suivi du budget et du planning
+
+	* Encadrement de l’équipe de développement (4 à 9 personnes)
+
+	* Pilotage des projets en Windev, Java/J2ee, Talend
+
+	* Responsable des échanges avec le client
+
+*** Développeur sénior
+ 	
+	* Développement en Java/J2ee sur une application de statistiques 
+	
+		* Eclipse, Java 1.5, Spring, Tomcat, Oracle, Hyperfile SQL, SVN, Jenkins, Maven, Sonar, Quality Center
+ 	
+	* Développement en Windev sur les applications de saisie des affaires de civiles
+ 	
+***	Contexte
+
+	4 personnes (2 millions d’euros sur 4 ans)
+
+** Octobre 2010 à octobre 2011 (Paris) Sopra-Steria
+
+*** 	Recruteur
+ 	
+	* En charge de la campagne de recrutement stagiaire 2010-2011. Recrutement de 60 stagiaires répartis entre Paris et Nantes
+ 	
+*** 	Développeur
+ 	
+	* Développement en J2ee sur l’application de gestion des CV des collaborateurs
+	
+		*Eclipse, Maven 1 et 2, Jenkins, Artifactory, SVN, JBoss 4, EJB 2.1, Java 1.5, Quality Center
+		
+	* Développement en PHP sur l’application de suivi des collaborateurs
+	
+		* Eclipse, Maven 2, SVN, PHP 5, LAMP, WAMP, Quality Center
+ 	
+*** Contexte
+
+	4 personnes en charge du recrutement et des ressources humaines de l’entité secteur public de Sopra (200 collaborateurs répartis entre Paris et Nantes)
+
+** Août 2009 à octobre 2010 (Paris) Maire de Paris
+
+*** Responsable d’applications
+
+	* En charge du pôle de maintenance des applications du bureau BPAFI de la Mairie de Paris (40 applications)
+	
+*** Contexte
+
+	20 personnes en charge de la maintenance du parc applicatif (150 applicatifs) de la Mairie de Paris (8 millions d’euros sur 4 ans)
+
+** Juin 2008 à août 2009 (Paris) DGDDI 
+
+***	Responsable d’application – Développeur Java
+ 	
+	* Responsable de l’application MAREVA
+		
+		* Eclipse, Ant, Java 1.4, Oracle, Jenkins, Sonar, Junit
+	
+	* Responsable de modules évolutifs sur l’application NSTI
+	
+		* Eclipse, Java 1.5, Maven 2, JBoss 4, Weblogic, Spring, Struts, Hibernate, C, Tuxedo, Jenkins, Sonar, Quality Center
+	
+*** Contexte
+
+	4 personnes (2 millions d’euros sur 4 ans)
+
+** Décembre 2007 à juin 2008 (Paris) Ministère de la Justice
+
+*** Développeur Java
+ 	
+	* Développement d’évolutions et de correctifs sur l’application APPI
+	
+		* Eclipse, Java 1.5, Maven, Ant, Tomcat, Oracle, Spring, Struts, Kasper, Junit
+	
+*** Contexte
+
+	4 personnes (2 millions d’euros sur 4 ans)
+
+=====================
+
+** Avril 2007 à décembre 2007 (Paris) Conseil Général du 92
+
+*** Développeur Java
+ 	
+	* Développement d’évolutions et de correctifs sur différents portails Internet basés sur la solution VIGNETTE PORTAL
+	
+		* Eclipse, Java 1.4, Tomcat, Ant, Vignette
+	
+*** Contexte
+
+	7 personnes
+ 
+* Divers
+
+	* Développements.
+	
+	* Poker
+	
+	* Voyages
+	   
+ 	   	* Allemagne
+	
+		* Belgique
+	
+		* Canada
+	
+		* Écosse
+	
+		* Espagne
+	
+		* États-Unis
+	
+		* France
+	
+		* Grèce
+
+		* Hongrie
+	
+		* Irlande
+	
+		* Pays-Bas
+	
+		* Pologne
+	
+		* République-Tchèque
