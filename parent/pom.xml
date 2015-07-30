@@ -5,6 +5,27 @@
 	<artifactId>parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<developers>
+		<developer>
+			<name>Xavier Bouclet</name>
+			<email>mikrethor@gmail.com</email>
+		</developer>
+	</developers>
+
+	<properties>
+		<author>Xavier BOUCLET</author>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>
@@ -34,6 +55,9 @@
 					<chmod>true</chmod>
 					<inputEncoding>UTF-8</inputEncoding>
 					<outputEncoding>UTF-8</outputEncoding>
+
+					<locales>en,fr</locales>
+
 				</configuration>
 				<dependencies>
 					<dependency>
@@ -42,6 +66,7 @@
 						<version>1.6</version>
 					</dependency>
 				</dependencies>
+
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.doxia</groupId>
@@ -63,9 +88,10 @@
 				</executions>
 				<configuration>
 					<books>
+
 						<book>
 							<directory>src/site/xdoc/cv/</directory>
-							<descriptor>src/site/book_cvxdoc.xml</descriptor>
+							<descriptor>src/site/bookdescriptors/book_cvxdoc.xml</descriptor>
 							<formats>
 								<!-- <format> <id>latex</id> </format> <format> <id>xdoc</id> </format> -->
 								<format>
@@ -76,7 +102,7 @@
 						</book>
 						<book>
 							<directory>src/site/docbook/cv/</directory>
-							<descriptor>src/site/book_cvdocbook.xml</descriptor>
+							<descriptor>src/site/bookdescriptors/book_cvdocbook.xml</descriptor>
 							<formats>
 								<!-- <format> <id>latex</id> </format> <format> <id>xdoc</id> </format> -->
 								<format>
@@ -87,18 +113,27 @@
 						</book>
 						<book>
 							<directory>src/site/apt/cv/</directory>
-							<descriptor>src/site/book_cvapt.xml</descriptor>
+							<descriptor>src/site/bookdescriptors/book_cvapt.xml</descriptor>
 							<formats>
-								<!-- <format> <id>latex</id> </format> <format> <id>xdoc</id> </format> -->
+								<!-- <format> <id>latex</id> </format> -->
+								<format>
+									<id>xdoc</id>
+								</format>
 								<format>
 									<id>pdf</id>
 								</format>
-								<!--<format> <id>rtf</id> </format> -->
+								<format>
+									<id>doc-book</id>
+								</format>
+								<format>
+									<id>rtf</id>
+								</format>
 							</formats>
+
 						</book>
 						<book>
 							<directory>src/site/fml/cv/</directory>
-							<descriptor>src/site/book_cvfml.xml</descriptor>
+							<descriptor>src/site/bookdescriptors/book_cvfml.xml</descriptor>
 							<formats>
 								<!-- <format> <id>latex</id> </format> <format> <id>xdoc</id> </format> -->
 								<format>
@@ -112,6 +147,42 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<scm>
+
+		<url>https://github.com/mikrethor/samples.git</url>
+		<connection>scm:git:git://github.com/mikrethor/samples.git</connection>
+		<developerConnection>scm:git:git@github.com:mikrethor/samples.git</developerConnection>
+
+	</scm>
+
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-changelog-plugin</artifactId>
+				<version>2.3</version>
+				<reportSets>
+					<reportSet>
+						<id>dual-report</id>
+						<configuration>
+							<type>range</type>
+							<range>30</range>
+						</configuration>
+						<reports>
+							<report>changelog</report>
+							<report>file-activity</report>
+						</reports>
+					</reportSet>
+				</reportSets>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>3.0-SNAPSHOT</version>
+			</plugin>
+		</plugins>
+	</reporting>
 
 
 
