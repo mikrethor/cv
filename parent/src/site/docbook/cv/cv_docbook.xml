@@ -1,20 +1,490 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <book version="5.0" xmlns="http://docbook.org/ns/docbook"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xi="http://www.w3.org/2001/XInclude">
-  <info>
-    <title>This is a book</title>
-  </info>
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
 
-  <chapter>
-    <title>This is a chapter</title>
 
-    <section>
-      <title>This is a section</title>
-
-      <para>This is a paragraph.</para>
-    </section>
-
-    <xi:include href="included_section.dbk" />
-  </chapter>
+	<chapter>
+		<section>
+			<title>Développeur Java/J2EE</title>
+			<section>
+				<title>Autorisé à travailler au Canada (PVT, JP) </title>
+				<para>Mon objectif est de mettre à profit mes 8 années
+					d&apos;expérience afin d&apos;améliorer la productivité et le
+					fonctionnement des entreprises
+				</para>
+			</section>
+			<section>
+				<title>Compétences</title>
+				<section>
+					<title>Techniques</title>
+					<itemizedlist>
+						<listitem>
+							<para>Langages : Java, JEE, SQL, PL/SQL, Windev</para>
+						</listitem>
+						<listitem>
+							<para>Framework : Spring, Struts, Hibernate</para>
+						</listitem>
+						<listitem>
+							<para>OS: Windows, Linux, Unix, Android</para>
+						</listitem>
+						<listitem>
+							<para>Bases de données: MySQL, Oracle, PostgreSQL, DB2</para>
+						</listitem>
+						<listitem>
+							<para>Solutions de tests : Quality Center, Test Director, RTC,
+								RQM
+							</para>
+						</listitem>
+						<listitem>
+							<para>Gestion de configuration : CVS, SVN, GDS, Git</para>
+						</listitem>
+						<listitem>
+							<para>Outils : Jenkins, Sonar, Artifactory, Nexus</para>
+						</listitem>
+						<listitem>
+							<para>Modélisation : UML</para>
+						</listitem>
+					</itemizedlist>
+				</section>
+				<section>
+					<title>Langues</title>
+					<itemizedlist>
+						<listitem>
+							<para>Français : (langue maternelle)</para>
+						</listitem>
+						<listitem>
+							<para>Anglais</para>
+						</listitem>
+					</itemizedlist>
+				</section>
+			</section>
+			<section>
+				<title>Principales Réalisations</title>
+				<itemizedlist>
+					<listitem>
+						<para>Mise en place d&apos;une &quot;task force&quot; de 7
+							personnes pour la réussite des développements d&apos;un module
+							d&apos;administration d&apos;une application de transformation de
+							message de la direction générale de l&apos;armement pour le
+							compte de Sopra-Steria.
+						</para>
+					</listitem>
+					<listitem>
+						<para>Transfert avec réussite des activités de maintenance des
+							applications de la Chaîne Civile du Ministère de la Justice pour
+							le compte de Sopra-Steria de Paris à Nantes.
+						</para>
+					</listitem>
+					<listitem>
+						<para>Industrialisation des développements des applications RH du
+							secteur public de Sopra-Steria (Migration Maven 1 à 2, Jenkins,
+							Artifactory).
+						</para>
+					</listitem>
+					<listitem>
+						<para>Organisation avec succès de la campagne de recrutement de 60
+							stagiaires 2010-2011 du secteur public de Sopra-Steria répartis
+							entre Paris et Nantes
+						</para>
+					</listitem>
+				</itemizedlist>
+			</section>
+			<section>
+				<title>Éducation</title>
+				<informaltable frame="all" rowsep="1" colsep="1">
+					<tgroup cols="3">
+						<colspec align="center" />
+						<colspec align="left" />
+						<colspec align="right" />
+						<tbody>
+							<row>
+								<entry>Juin 2007</entry>
+								<entry>Orléans</entry>
+								<entry>Master 2 Sciences et Technologie de l’Information et de
+									la Communication mention IRAD (Informatique : Répartition et
+									Aide à la Décision)
+								</entry>
+							</row>
+							<row>
+								<entry>Juin 2005</entry>
+								<entry>Orléans</entry>
+								<entry>Licence3 STIC (Sciences des Technologies de l’Information
+									et de la Communication)
+								</entry>
+							</row>
+							<row>
+								<entry>Juin 2001</entry>
+								<entry>Chartres</entry>
+								<entry>Baccalauréat scientifique</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</informaltable>
+			</section>
+			<section>
+				<title>Projets Personnels</title>
+				<section>
+					<title>Développement d’une application Android pour faire
+						travailler la mémoire
+					</title>
+					<para>Langages : Java 1.6 Framework : Junit OS: Android Gestion de
+						configuration : Git Outils : Ant, Eclipse+AOSP
+					</para>
+				</section>
+				<section>
+					<title>Développement d’une application de récupération des données
+						de jeu des joueurs de poker en ligne avec calculs de statistiques
+					</title>
+					<para>Langages : Java 1.7 Framework : MyBatis, SLF4J, Eclipse RCP,
+						Junit OS: Windows, Linux, Unix Bases de données: PostgreSQL
+						Gestion de configuration : Git Modélisation : UML Outils : Maven
+						3, Jenkins, Sonar, Eclipse
+					</para>
+				</section>
+			</section>
+			<section>
+				<title>Expériences</title>
+				<section>
+					<title>Juin 2015 (Montréal) Desjardins – GROCI</title>
+					<section>
+						<title>Développeur sénior</title>
+						<para>TODO</para>
+					</section>
+				</section>
+				<section>
+					<title>Août 2014 à juin 2015 (Montréal) Desjardins – GROCI</title>
+					<section>
+						<title>Développeur sénior</title>
+						<itemizedlist>
+							<listitem>
+								<para>Développement en Java/J2ee sur les modules Contrôles
+									Internes et Risques Opérationnels de l’application mouvement
+									GROCI.
+								</para>
+								<itemizedlist>
+									<listitem>
+										<para>Eclipse, Java 1.6, Spring, Hibernate, Weblogic, Ant,
+											Jenkins, Sonar, CVS, Junit, DB2 * Mise en place de Sonar
+										</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+						</itemizedlist>
+					</section>
+					<section>
+						<title>Contexte</title>
+						<para>6 personnes dans la Direction Solutions, Gestion des risques
+							Technologies et Services partagés
+						</para>
+					</section>
+				</section>
+				<section>
+					<title>Juin 2013 à mai 2014 (Rennes - Paris) Direction Générale de
+						l’Armement – Programme SIA
+					</title>
+					<section>
+						<title>Chef de projets</title>
+						<itemizedlist>
+							<listitem>
+								<para>Suivi du budget et du planning</para>
+							</listitem>
+							<listitem>
+								<para>Encadrement de l’équipe de développement (11 personnes)
+								</para>
+							</listitem>
+							<listitem>
+								<para>Pilotage des projets en Java/J2ee, DotNet et intégration
+									de progiciel
+								</para>
+							</listitem>
+							<listitem>
+								<para>Responsable des échanges avec le client et avec la
+									hiérarchie
+								</para>
+							</listitem>
+						</itemizedlist>
+					</section>
+					<section>
+						<title>Développeur sénior</title>
+						<itemizedlist>
+							<listitem>
+								<para>Développement en Java/J2ee sur un projet de build de 2000
+									jours
+								</para>
+								<itemizedlist>
+									<listitem>
+										<para>Eclipse RCP, Java 1.6, Fuse ESB, Jenkins, Maven, Sonar,
+											PostgreSQL, SVN, TestNG, RQM, RTC
+										</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+						</itemizedlist>
+					</section>
+					<section>
+						<title>Contexte</title>
+						<para>11 personnes dans un programme de 150 personnes (130
+							millions d’euros sur 8 ans) dans les locaux de Sopra Rennes et
+							Paris)
+						</para>
+					</section>
+				</section>
+				<section>
+					<title>Octobre 2011 à mai 2013 (Nantes - Paris) Ministère de la
+						Justice
+					</title>
+					<section>
+						<title>Chef de projets</title>
+						<itemizedlist>
+							<listitem>
+								<para>Suivi du budget et du planning</para>
+							</listitem>
+							<listitem>
+								<para>Encadrement de l’équipe de développement (4 à 9 personnes)
+								</para>
+							</listitem>
+							<listitem>
+								<para>Pilotage des projets en Windev, Java/J2ee, Talend</para>
+							</listitem>
+							<listitem>
+								<para>Responsable des échanges avec le client</para>
+							</listitem>
+						</itemizedlist>
+					</section>
+					<section>
+						<title>Développeur sénior</title>
+						<itemizedlist>
+							<listitem>
+								<para>Développement en Java/J2ee sur une application de
+									statistiques
+								</para>
+								<itemizedlist>
+									<listitem>
+										<para>Eclipse, Java 1.5, Spring, Tomcat, Oracle, Hyperfile
+											SQL, SVN, Jenkins, Maven, Sonar, Quality Center
+										</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+							<listitem>
+								<para>Développement en Windev sur les applications de saisie des
+									affaires de civiles
+								</para>
+							</listitem>
+						</itemizedlist>
+					</section>
+					<section>
+						<title>Contexte</title>
+						<para>4 personnes (2 millions d’euros sur 4 ans)</para>
+					</section>
+				</section>
+				<section>
+					<title>Octobre 2010 à octobre 2011 (Paris) Sopra-Steria</title>
+					<section>
+						<title>Recruteur</title>
+						<itemizedlist>
+							<listitem>
+								<para>En charge de la campagne de recrutement stagiaire
+									2010-2011. Recrutement de 60 stagiaires répartis entre Paris et
+									Nantes
+								</para>
+							</listitem>
+						</itemizedlist>
+					</section>
+					<section>
+						<title>Développeur</title>
+						<itemizedlist>
+							<listitem>
+								<para>Développement en J2ee sur l’application de gestion des CV
+									des collaborateurs
+								</para>
+								<itemizedlist>
+									<listitem>
+										<para>Eclipse, Maven 1 et 2, Jenkins, Artifactory, SVN, JBoss
+											4, EJB 2.1, Java 1.5, Quality Center
+										</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+							<listitem>
+								<para>Développement en PHP sur l’application de suivi des
+									collaborateurs
+								</para>
+								<itemizedlist>
+									<listitem>
+										<para>Eclipse, Maven 2, SVN, PHP 5, LAMP, WAMP, Quality Center
+										</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+						</itemizedlist>
+					</section>
+					<section>
+						<title>Contexte</title>
+						<para>4 personnes en charge du recrutement et des ressources
+							humaines de l’entité secteur public de Sopra (200 collaborateurs
+							répartis entre Paris et Nantes)
+						</para>
+					</section>
+				</section>
+				<section>
+					<title>Août 2009 à octobre 2010 (Paris) Maire de Paris</title>
+					<section>
+						<title>Responsable d’applications</title>
+						<itemizedlist>
+							<listitem>
+								<para>En charge du pôle de maintenance des applications du
+									bureau BPAFI de la Mairie de Paris (40 applications)
+								</para>
+							</listitem>
+						</itemizedlist>
+					</section>
+					<section>
+						<title>Contexte</title>
+						<para>20 personnes en charge de la maintenance du parc applicatif
+							(150 applicatifs) de la Mairie de Paris (8 millions d’euros sur 4
+							ans)
+						</para>
+					</section>
+				</section>
+				<section>
+					<title>Juin 2008 à août 2009 (Paris) DGDDI </title>
+					<section>
+						<title>Responsable d’application – Développeur Java</title>
+						<itemizedlist>
+							<listitem>
+								<para>Responsable de l’application MAREVA</para>
+								<itemizedlist>
+									<listitem>
+										<para>Eclipse, Ant, Java 1.4, Oracle, Jenkins, Sonar, Junit
+										</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+							<listitem>
+								<para>Responsable de modules évolutifs sur l’application NSTI
+								</para>
+								<itemizedlist>
+									<listitem>
+										<para>Eclipse, Java 1.5, Maven 2, JBoss 4, Weblogic, Spring,
+											Struts, Hibernate, C, Tuxedo, Jenkins, Sonar, Quality Center
+										</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+						</itemizedlist>
+					</section>
+					<section>
+						<title>Contexte</title>
+						<para>4 personnes (2 millions d’euros sur 4 ans)</para>
+					</section>
+				</section>
+				<section>
+					<title>Décembre 2007 à juin 2008 (Paris) Ministère de la Justice
+					</title>
+					<section>
+						<title>Développeur Java</title>
+						<itemizedlist>
+							<listitem>
+								<para>Développement d’évolutions et de correctifs sur
+									l’application APPI
+								</para>
+								<itemizedlist>
+									<listitem>
+										<para>Eclipse, Java 1.5, Maven, Ant, Tomcat, Oracle, Spring,
+											Struts, Kasper, Junit
+										</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+						</itemizedlist>
+					</section>
+					<section>
+						<title>Contexte</title>
+						<para>4 personnes (2 millions d’euros sur 4 ans)</para><!-- HR -->
+					</section>
+				</section>
+				<section>
+					<title>Avril 2007 à décembre 2007 (Paris) Conseil Général du 92
+					</title>
+					<section>
+						<title>Développeur Java</title>
+						<itemizedlist>
+							<listitem>
+								<para>Développement d’évolutions et de correctifs sur différents
+									portails Internet basés sur la solution VIGNETTE PORTAL
+								</para>
+								<itemizedlist>
+									<listitem>
+										<para>Eclipse, Java 1.4, Tomcat, Ant, Vignette</para>
+									</listitem>
+								</itemizedlist>
+							</listitem>
+						</itemizedlist>
+					</section>
+					<section>
+						<title>Contexte</title>
+						<para>7 personnes</para>
+					</section>
+				</section>
+			</section>
+			<section>
+				<title>Divers</title>
+				<itemizedlist>
+					<listitem>
+						<para>Développements.</para>
+					</listitem>
+					<listitem>
+						<para>Poker</para>
+					</listitem>
+					<listitem>
+						<para>Voyages</para>
+						<itemizedlist>
+							<listitem>
+								<para>Allemagne</para>
+							</listitem>
+						</itemizedlist>
+						<itemizedlist>
+							<listitem>
+								<para>Belgique</para>
+							</listitem>
+							<listitem>
+								<para>Canada</para>
+							</listitem>
+							<listitem>
+								<para>Écosse</para>
+							</listitem>
+							<listitem>
+								<para>Espagne</para>
+							</listitem>
+							<listitem>
+								<para>États-Unis</para>
+							</listitem>
+							<listitem>
+								<para>France</para>
+							</listitem>
+							<listitem>
+								<para>Grèce</para>
+							</listitem>
+							<listitem>
+								<para>Hongrie</para>
+							</listitem>
+							<listitem>
+								<para>Irlande</para>
+							</listitem>
+							<listitem>
+								<para>Pays-Bas</para>
+							</listitem>
+							<listitem>
+								<para>Pologne</para>
+							</listitem>
+							<listitem>
+								<para>République-Tchèque</para>
+							</listitem>
+						</itemizedlist>
+					</listitem>
+				</itemizedlist>
+			</section>
+		</section>
+	</chapter>
 </book>

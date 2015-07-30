@@ -1,42 +1,365 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <document xmlns="http://maven.apache.org/XDOC/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
-
 	<properties>
 		<title>CV in XDOC format</title>
-		<author email="mikrethor@gmail.com">Xavier BOUCLET</author>
+		<author>Xavier BOUCLET</author>
 	</properties>
-
-	<!-- Optional HEAD element, which is copied as is into the XHTML <head> 
-		element -->
-	<!-- <head> <meta name="CV_XDOC" content="CV in XDOC format" id="CV_XDOC" 
-		/> </head> -->
-
 	<body>
-
-		<!-- The body of the document contains a number of sections -->
-		<section name="CV" id="CV">
-
-			<!-- Within sections, any XHTML can be used -->
-
-
-			<!-- in addition to XHTML, any number of subsections can be within a section -->
-			<subsection name="subsectiond1" id="subsectiond1">
-				<p>Subsection!</p>
+		<section name="Développeur Java/J2EE">
+			<subsection name="Autorisé à travailler au Canada (PVT, JP)">
+				<p>Mon objectif est de mettre à profit mes 8
+					années d'expérience afin
+					d'améliorer la productivité et le
+					fonctionnement des entreprises
+				</p>
 			</subsection>
-
-		</section>
-
-		<section name="other section">
-
-			<!-- You can also include preformatted source blocks in the document -->
-			<source>
-				code line 1
-				code line 2
-			</source>
-
+			<subsection name="Compétences">
+				<h4>Techniques</h4>
+				<ul>
+					<li>Langages : Java, JEE, SQL, PL/SQL, Windev</li>
+					<li>Framework : Spring, Struts, Hibernate</li>
+					<li>OS: Windows, Linux, Unix, Android</li>
+					<li>Bases de données: MySQL, Oracle, PostgreSQL, DB2
+					</li>
+					<li>Solutions de tests : Quality Center, Test Director,
+						RTC, RQM
+					</li>
+					<li>Gestion de configuration : CVS, SVN, GDS, Git</li>
+					<li>Outils : Jenkins, Sonar, Artifactory, Nexus</li>
+					<li>Modélisation : UML</li>
+				</ul>
+				<h4>Langues</h4>
+				<ul>
+					<li>Français : (langue maternelle)</li>
+					<li>Anglais</li>
+				</ul>
+			</subsection>
+			<subsection name="Principales Réalisations">
+				<ul>
+					<li>Mise en place d'une "task force" de 7 personnes pour
+						la réussite
+						des développements d'un module
+						d'administration d'une
+						application de
+						transformation de message de
+						la direction générale
+						de l'armement
+						pour le
+						compte de Sopra-Steria.
+					</li>
+					<li>Transfert avec réussite des activités de
+						maintenance des
+						applications de la Chaîne Civile du
+						Ministère de la
+						Justice pour le
+						compte de Sopra-Steria
+						de Paris à Nantes.
+					</li>
+					<li>Industrialisation des développements des
+						applications RH du
+						secteur public de Sopra-Steria (Migration Maven
+						1 à 2, Jenkins,
+						Artifactory).
+					</li>
+					<li>Organisation avec succès de la campagne de
+						recrutement de 60
+						stagiaires 2010-2011 du secteur public de
+						Sopra-Steria répartis
+						entre Paris et Nantes
+					</li>
+				</ul>
+			</subsection>
+			<subsection name="Éducation">
+				<table border="1">
+					<tr valign="top">
+						<td align="center">Juin 2007</td>
+						<td align="left">Orléans</td>
+						<td align="right">Master 2 Sciences et Technologie de
+							l'Information et
+							de la Communication mention
+							IRAD (Informatique : Répartition et
+							Aide à
+							la Décision)
+						</td>
+					</tr>
+					<tr valign="top">
+						<td align="center">Juin 2005</td>
+						<td align="left">Orléans</td>
+						<td align="right">Licence3 STIC (Sciences des Technologies de
+							l'Information et de la Communication)
+						</td>
+					</tr>
+					<tr valign="top">
+						<td align="center">Juin 2001</td>
+						<td align="left">Chartres</td>
+						<td align="right">Baccalauréat scientifique</td>
+					</tr>
+				</table>
+			</subsection>
+			<subsection name="Projets Personnels">
+				<h4>Développement d'une application
+					Android pour
+					faire travailler la
+					mémoire
+				</h4>
+				<p>Langages : Java 1.6 Framework : Junit OS: Android Gestion de
+					configuration : Git Outils : Ant, Eclipse+AOSP
+				</p>
+				<h4>Développement d'une application de
+					récupération
+					des données de jeu
+					des joueurs de poker en ligne avec calculs de
+					statistiques
+				</h4>
+				<p>Langages : Java 1.7 Framework : MyBatis, SLF4J, Eclipse RCP,
+					Junit OS: Windows, Linux, Unix Bases de données:
+					PostgreSQL Gestion
+					de configuration : Git Modélisation :
+					UML Outils : Maven 3, Jenkins,
+					Sonar, Eclipse
+				</p>
+			</subsection>
+			<subsection name="Expériences">
+				<h4>Juin 2015 (Montréal) Desjardins -
+					GROCI
+				</h4>
+				<h5>Développeur sénior</h5>
+				<p>TODO</p>
+				<h4>Août 2014 à juin 2015
+					(Montréal) Desjardins
+					- GROCI
+				</h4>
+				<h5>Développeur sénior</h5>
+				<ul>
+					<li>
+						Développement en Java/J2ee sur les modules
+						Contrôles
+						Internes et Risques Opérationnels
+						de l'application
+						mouvement GROCI.
+						<ul>
+							<li>Eclipse, Java 1.6, Spring, Hibernate, Weblogic, Ant, Jenkins,
+								Sonar, CVS, Junit, DB2 * Mise en place de Sonar
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<h5>Contexte</h5>
+				<p>6 personnes dans la Direction Solutions, Gestion des risques
+					Technologies et Services partagés
+				</p>
+				<h4>Juin 2013 à mai 2014 (Rennes - Paris) Direction
+					Générale de
+					l'Armement
+					- Programme SIA
+				</h4>
+				<h5>Chef de projets</h5>
+				<ul>
+					<li>Suivi du budget et du planning</li>
+					<li>Encadrement de l'équipe de
+						développement (11
+						personnes)
+					</li>
+					<li>Pilotage des projets en Java/J2ee, DotNet et
+						intégration de
+						progiciel
+					</li>
+					<li>Responsable des échanges avec le client et avec la
+						hiérarchie
+					</li>
+				</ul>
+				<h5>Développeur sénior</h5>
+				<ul>
+					<li>
+						Développement en Java/J2ee sur un projet de build de
+						2000 jours
+						<ul>
+							<li>Eclipse RCP, Java 1.6, Fuse ESB, Jenkins, Maven, Sonar,
+								PostgreSQL, SVN, TestNG, RQM, RTC
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<h5>Contexte</h5>
+				<p>11 personnes dans un programme de 150 personnes (130 millions
+					d'euros sur 8 ans) dans les locaux de Sopra Rennes
+					et Paris)
+				</p>
+				<h4>Octobre 2011 à mai 2013 (Nantes - Paris)
+					Ministère de la Justice
+				</h4>
+				<h5>Chef de projets</h5>
+				<ul>
+					<li>Suivi du budget et du planning</li>
+					<li>Encadrement de l'équipe de
+						développement (4 à 9
+						personnes)
+					</li>
+					<li>Pilotage des projets en Windev, Java/J2ee, Talend</li>
+					<li>Responsable des échanges avec le client</li>
+				</ul>
+				<h5>Développeur sénior</h5>
+				<ul>
+					<li>
+						Développement en Java/J2ee sur une application de
+						statistiques
+						<ul>
+							<li>Eclipse, Java 1.5, Spring, Tomcat, Oracle, Hyperfile SQL,
+								SVN, Jenkins, Maven, Sonar, Quality Center
+							</li>
+						</ul>
+					</li>
+					<li>Développement en Windev sur les applications de
+						saisie des
+						affaires de civiles
+					</li>
+				</ul>
+				<h5>Contexte</h5>
+				<p>4 personnes (2 millions d'euros sur 4 ans)</p>
+				<h4>Octobre 2010 à octobre 2011 (Paris) Sopra-Steria</h4>
+				<h5>Recruteur</h5>
+				<ul>
+					<li>En charge de la campagne de recrutement stagiaire 2010-2011.
+						Recrutement de 60 stagiaires répartis entre Paris et
+						Nantes
+					</li>
+				</ul>
+				<h5>Développeur</h5>
+				<ul>
+					<li>
+						Développement en J2ee sur
+						l'application de gestion
+						des CV des
+						collaborateurs
+						<ul>
+							<li>Eclipse, Maven 1 et 2, Jenkins, Artifactory, SVN, JBoss 4,
+								EJB 2.1, Java 1.5, Quality Center
+							</li>
+						</ul>
+					</li>
+					<li>
+						Développement en PHP sur l'application
+						de suivi
+						des collaborateurs
+						<ul>
+							<li>Eclipse, Maven 2, SVN, PHP 5, LAMP, WAMP, Quality Center</li>
+						</ul>
+					</li>
+				</ul>
+				<h5>Contexte</h5>
+				<p>4 personnes en charge du recrutement et des ressources humaines
+					de l'entité secteur public de Sopra
+					(200
+					collaborateurs répartis
+					entre Paris et Nantes)
+				</p>
+				<h4>Août 2009 à octobre 2010 (Paris) Maire de
+					Paris
+				</h4>
+				<h5>Responsable d'applications</h5>
+				<ul>
+					<li>En charge du pôle de maintenance des applications du
+						bureau
+						BPAFI de la Mairie de Paris (40 applications)
+					</li>
+				</ul>
+				<h5>Contexte</h5>
+				<p>20 personnes en charge de la maintenance du parc applicatif (150
+					applicatifs) de la Mairie de Paris (8 millions
+					d'euros sur 4 ans)
+				</p>
+				<h4>Juin 2008 à août 2009 (Paris) DGDDI </h4>
+				<h5>Responsable d'application - Développeur Java
+				</h5>
+				<ul>
+					<li>
+						Responsable de l'application MAREVA
+						<ul>
+							<li>Eclipse, Ant, Java 1.4, Oracle, Jenkins, Sonar, Junit</li>
+						</ul>
+					</li>
+					<li>
+						Responsable de modules évolutifs sur
+						l'application NSTI
+						<ul>
+							<li>Eclipse, Java 1.5, Maven 2, JBoss 4, Weblogic, Spring,
+								Struts, Hibernate, C, Tuxedo, Jenkins, Sonar, Quality Center
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<h5>Contexte</h5>
+				<p>4 personnes (2 millions d'euros sur 4 ans)</p>
+				<h4>Décembre 2007 à juin 2008 (Paris)
+					Ministère de la Justice
+				</h4>
+				<h5>Développeur Java</h5>
+				<ul>
+					<li>
+						Développement d'évolutions
+						et de correctifs sur
+						l'application APPI
+						<ul>
+							<li>Eclipse, Java 1.5, Maven, Ant, Tomcat, Oracle, Spring,
+								Struts, Kasper, Junit
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<h5>Contexte</h5>
+				<p>4 personnes (2 millions d'euros sur 4 ans)</p>
+				<hr />
+				<h4>Avril 2007 à décembre 2007 (Paris) Conseil
+					Général du 92
+				</h4>
+				<h5>Développeur Java</h5>
+				<ul>
+					<li>
+						Développement d'évolutions
+						et de correctifs sur
+						différents portails
+						Internet
+						basés sur la solution VIGNETTE PORTAL
+						<ul>
+							<li>Eclipse, Java 1.4, Tomcat, Ant, Vignette</li>
+						</ul>
+					</li>
+				</ul>
+				<h5>Contexte</h5>
+				<p>7 personnes</p>
+			</subsection>
+			<subsection name="Divers">
+				<ul>
+					<li>Développements.</li>
+					<li>Poker</li>
+					<li>
+						Voyages
+						<ul>
+							<li>Allemagne</li>
+						</ul>
+						<ul>
+							<li>Belgique</li>
+							<li>Canada</li>
+							<li>
+								Écosse
+							</li>
+							<li>Espagne</li>
+							<li>États-Unis</li>
+							<li>France</li>
+							<li>Grèce</li>
+							<li>Hongrie</li>
+							<li>Irlande</li>
+							<li>Pays-Bas</li>
+							<li>Pologne</li>
+							<li>
+								République-Tchèque
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</subsection>
 		</section>
 
 	</body>
-
 </document>
