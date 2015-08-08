@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="${project.name}">
+
+	<skin>
+		<groupId>org.apache.maven.skins</groupId>
+		<artifactId>maven-fluido-skin</artifactId>
+		<version>1.4</version>
+	</skin>
+
+	<!-- <custom> <fluidoSkin> <cssLinks> <cssLink>link to site.css </cssLink> 
+		</cssLinks> <topBarEnabled>true</topBarEnabled> <topBarIcon> <name>name</name> 
+		<alt>doc</alt> <src>ling to logo </src> <href>${urlDocumentation}</href> 
+		</topBarIcon> </fluidoSkin> </custom> -->
+	<body>
+		<links>
+			<item name="Maven" href="http://maven.apache.org/" />
+		</links>
+
+		<menu name="Curricula Vitae">
+			<item name="CV au format APT" href="cv/cv_apt.html" />
+		</menu>
+		<menu ref="reports" />
+
+	</body>
+</project>
