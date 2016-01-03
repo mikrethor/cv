@@ -62,7 +62,6 @@ The book generation is done during site phase. To undestand book generation see 
 						<id>rtf</id>
 					</format>
 				</formats>
-
 			</book>
 		</books>
 	</configuration>
