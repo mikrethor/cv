@@ -4,8 +4,14 @@ Maven project that shows doxia formats of my resume in [english](http://mikretho
 
 ## Site generation
 
-In order to generate this site you have to use this goal :
+In order to generate a site you have to use this goal :
 ```
 mvn site:site 
 ```
 
+## Pdf generation
+
+In order to generate a pdf you have to use this goal :
+```
+mvn pdf:pdf 
+```
