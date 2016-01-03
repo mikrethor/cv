@@ -50,11 +50,11 @@ Développeur Java/J2EE
 * Éducation
 
 *------*----------+--------------------------------------------------------------------------------------:
-| Juin | Orléans  |Master 2 Sciences et Technologie de l’Information et de la Communication mention IRAD |
+| Juin | Orléans  |Master 2 Sciences et Technologie de l'Information et de la Communication mention IRAD |
 | 2007 |          |(Informatique : Répartition et Aide à la Décision)     								 |
 *------*----------+--------------------------------------------------------------------------------------:
 | Juin | Orléans  | Licence3 STIC  																		 |
-| 2005 |          | (Sciences des Technologies de l’Information et de la Communication)      			 |
+| 2005 |          | (Sciences des Technologies de l'Information et de la Communication)      			 |
 *------*----------+--------------------------------------------------------------------------------------:
 | Juin | Chartres | Baccalauréat scientifique 															 |
 | 2001 |          |                     				      											 |
@@ -62,7 +62,7 @@ Développeur Java/J2EE
 
 * Projets Personnels
 
-** Développement d’une application Android pour faire travailler la mémoire
+** Développement d'une application Android pour faire travailler la mémoire
  	
  	Langages : Java 1.6
  	Framework : Junit
@@ -70,7 +70,7 @@ Développeur Java/J2EE
  	Gestion de configuration : Git
  	Outils : Ant, Eclipse+AOSP
  	
-**	Développement d’une application de récupération des données de jeu des joueurs de poker en ligne avec calculs de statistiques
+**	Développement d'une application de récupération des données de jeu des joueurs de poker en ligne avec calculs de statistiques
 
  	Langages : Java 1.7
  	Framework : MyBatis, SLF4J, Eclipse RCP, Junit
@@ -90,13 +90,15 @@ Développeur Java/J2EE
 
 *** Développeur sénior
 
-	TODO
+	* Développement en Java/J2ee sur les applications pour la conformité Bâle.
+	
+		*Eclipse, Java 1.6, Spring, Hibernate, Weblogic, Tibco AMX,  Tibco BS, Maven, Jenkins, Sonar, Git, Junit, DB2, Oracle, Stash, Spring Batch
 
 ** Août 2014 à juin 2015 (Montréal) Desjardins – GROCI
 
 *** Développeur sénior
 
-	* Développement en Java/J2ee sur les modules Contrôles Internes et Risques Opérationnels de l’application mouvement GROCI.
+	* Développement en Java/J2ee sur les modules Contrôles Internes et Risques Opérationnels de l'application mouvement GROCI.
 	
 		*Eclipse, Java 1.6, Spring, Hibernate, Weblogic, Ant, Jenkins, Sonar, CVS, Junit, DB2
 	* Mise en place de Sonar
@@ -112,14 +114,14 @@ Développeur Java/J2EE
 
 
 
-** Juin 2013 à mai 2014 (Rennes - Paris) Direction Générale de l’Armement – Programme SIA
+** Juin 2013 à mai 2014 (Rennes - Paris) Direction Générale de l'Armement – Programme SIA
 
 
 *** Chef de projets
  	
 	* Suivi du budget et du planning
 
-	* Encadrement de l’équipe de développement (11 personnes)
+	* Encadrement de l'équipe de développement (11 personnes)
  	
 	* Pilotage des projets en Java/J2ee, DotNet et intégration de progiciel
 
@@ -133,7 +135,7 @@ Développeur Java/J2EE
  
 *** Contexte
 
-	11 personnes dans un programme de 150 personnes (130 millions d’euros sur 8 ans) dans les locaux de Sopra Rennes et Paris)
+	11 personnes dans un programme de 150 personnes (130 millions d'euros sur 8 ans) dans les locaux de Sopra Rennes et Paris)
 
 =====================
 	
@@ -148,7 +150,7 @@ Développeur Java/J2EE
  	
 	* Suivi du budget et du planning
 
-	* Encadrement de l’équipe de développement (4 à 9 personnes)
+	* Encadrement de l'équipe de développement (4 à 9 personnes)
 
 	* Pilotage des projets en Windev, Java/J2ee, Talend
 
@@ -164,7 +166,7 @@ Développeur Java/J2EE
  	
 ***	Contexte
 
-	4 personnes (2 millions d’euros sur 4 ans)
+	4 personnes (2 millions d'euros sur 4 ans)
 
 
 =====================
@@ -184,17 +186,17 @@ Développeur Java/J2EE
  	
 *** 	Développeur
  	
-	* Développement en J2ee sur l’application de gestion des CV des collaborateurs
+	* Développement en J2ee sur l'application de gestion des CV des collaborateurs
 	
 		*Eclipse, Maven 1 et 2, Jenkins, Artifactory, SVN, JBoss 4, EJB 2.1, Java 1.5, Quality Center
 		
-	* Développement en PHP sur l’application de suivi des collaborateurs
+	* Développement en PHP sur l'application de suivi des collaborateurs
 	
 		* Eclipse, Maven 2, SVN, PHP 5, LAMP, WAMP, Quality Center
  	
 *** Contexte
 
-	4 personnes en charge du recrutement et des ressources humaines de l’entité secteur public de Sopra (200 collaborateurs répartis entre Paris et Nantes)
+	4 personnes en charge du recrutement et des ressources humaines de l'entité secteur public de Sopra (200 collaborateurs répartis entre Paris et Nantes)
 
 =====================
 
@@ -205,13 +207,13 @@ Développeur Java/J2EE
 
 ** Août 2009 à octobre 2010 (Paris) Maire de Paris
 
-*** Responsable d’applications
+*** Responsable d'applications
 
 	* En charge du pôle de maintenance des applications du bureau BPAFI de la Mairie de Paris (40 applications)
 	
 *** Contexte
 
-	20 personnes en charge de la maintenance du parc applicatif (150 applicatifs) de la Mairie de Paris (8 millions d’euros sur 4 ans)
+	20 personnes en charge de la maintenance du parc applicatif (150 applicatifs) de la Mairie de Paris (8 millions d'euros sur 4 ans)
 
 =====================
 
@@ -224,19 +226,19 @@ Développeur Java/J2EE
 
 
 
-***	Responsable d’application – Développeur Java
+***	Responsable d'application – Développeur Java
  	
-	* Responsable de l’application MAREVA
+	* Responsable de l'application MAREVA
 		
 		* Eclipse, Ant, Java 1.4, Oracle, Jenkins, Sonar, Junit
 	
-	* Responsable de modules évolutifs sur l’application NSTI
+	* Responsable de modules évolutifs sur l'application NSTI
 	
 		* Eclipse, Java 1.5, Maven 2, JBoss 4, Weblogic, Spring, Struts, Hibernate, C, Tuxedo, Jenkins, Sonar, Quality Center
 	
 *** Contexte
 
-	4 personnes (2 millions d’euros sur 4 ans)
+	4 personnes (2 millions d'euros sur 4 ans)
 
 =====================
 	
@@ -251,13 +253,13 @@ Développeur Java/J2EE
 
 *** Développeur Java
  	
-	* Développement d’évolutions et de correctifs sur l’application APPI
+	* Développement d'évolutions et de correctifs sur l'application APPI
 	
 		* Eclipse, Java 1.5, Maven, Ant, Tomcat, Oracle, Spring, Struts, Kasper, Junit
 	
 *** Contexte
 
-	4 personnes (2 millions d’euros sur 4 ans)
+	4 personnes (2 millions d'euros sur 4 ans)
 
 =====================
 
@@ -272,7 +274,7 @@ Développeur Java/J2EE
 
 *** Développeur Java
  	
-	* Développement d’évolutions et de correctifs sur différents portails Internet basés sur la solution VIGNETTE PORTAL
+	* Développement d'évolutions et de correctifs sur différents portails Internet basés sur la solution VIGNETTE PORTAL
 	
 		* Eclipse, Java 1.4, Tomcat, Ant, Vignette
 	

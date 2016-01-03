@@ -1,10 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.ablx</groupId>
+	<groupId>fr.ablx</groupId>
 	<artifactId>parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<url>https://github.com/mikrethor/parent</url>
 	<developers>
 		<developer>
 			<name>Xavier Bouclet</name>
@@ -16,7 +17,7 @@
 		<author>Xavier BOUCLET</author>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
+		<github.global.server>github</github.global.server>
 	</properties>
 
 	<dependencies>
@@ -176,15 +177,35 @@
 					</books>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>site-maven-plugin</artifactId>
+				<version>0.12</version>
+				<configuration>
+					<message>Creating site for ${project.version}</message>
+					<repositoryName>cv</repositoryName>
+					<repositoryOwner>mikrethor</repositoryOwner>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>site</goal>
+						</goals>
+						<phase>site</phase>
+						<configuration>
+							<path>${project.version}</path>
+							<merge>true</merge>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 
 	<scm>
-
 		<url>https://github.com/mikrethor/samples.git</url>
 		<connection>scm:git:git://github.com/mikrethor/samples.git</connection>
 		<developerConnection>scm:git:git@github.com:mikrethor/samples.git</developerConnection>
-
 	</scm>
 
 	<reporting>

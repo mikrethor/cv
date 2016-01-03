@@ -18,6 +18,9 @@
 
 		<menu name="Curricula Vitae">
 			<item name="CV au format APT" href="cv/cv_apt.html" />
+			<item name="CV au format XDOC" href="cv/cv_xdoc.html" />
+			<item name="CV au format DOCBOOK" href="cv/cv_docbook.html" />
+			<item name="CV au format FML" href="cv/cv_fml.html" />
 		</menu>
 		<menu ref="reports" />
 
