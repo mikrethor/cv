@@ -21,7 +21,7 @@ See this [file](https://github.com/mikrethor/cv/blob/master/parent/src/site/pdf.
 ## Book generation
 
 The book generation is done during site phase. To undestand book generation see the folowing :
-```
+```xml
 <plugin>
 	<groupId>org.apache.maven.doxia</groupId>
 	<artifactId>doxia-book-maven-plugin</artifactId>
