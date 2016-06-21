@@ -5,3 +5,7 @@ Maven project that shows doxia formats of my resume in [english](http://mikretho
 # currency-ws-client
 
 Ws Client Spring with spring annotation
+
+# servlet
+
+Servlet WildFly Swarm
